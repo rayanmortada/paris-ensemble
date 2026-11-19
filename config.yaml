@@ -1,0 +1,92 @@
+themes: [art, history, architecture, food, nature, views, shopping, nightlife, family, local_life]
+centre: [48.8566, 2.3522]                 # lat, lon
+bbox: [48.815, 2.224, 48.903, 2.470]      # south, west, north, east
+places:
+  restaurants_per_zone: 30
+  hotels_per_zone: 10
+  n_zones: 10
+  neighbour_km: 3.5
+  name_min_word: 85             # two words count as the same at this spelling similarity, 0..100
+  name_min_whole: 90            # a written name also matches when the whole string is this close
+  name_min_cos: 0.58            # otherwise at this embedding similarity. Chosen with check_places.py --names: a wrong match is worse than none
+travel:
+  detour_factor: 1.3
+  walk_kmh: 4.5
+  walk_max_km: 1.5
+  walk_max_km_mobility: 0.8
+  metro_kmh: 25
+  metro_overhead_min: 10
+  ticket_eur: 2.55              # single Metro-Train-RER ticket, 2026 fare
+day:
+  start: "09:30"
+  end: "19:00"
+  lunch_from: "11:45"
+  lunch_to: "14:00"
+  lunch_min: 75
+  lunch_must_open_by: "12:00"
+  dinner_at: "19:30"
+  dinner_latest: "21:00"
+  dinner_min: 90
+  stop_overhead_min: 15
+  extra_zone_min: 20
+pace_max_attractions: {relaxed: 3, normal: 4, packed: 5}
+pace_max_visit_minutes: {relaxed: 240, normal: 330, packed: 420}   # visits per day, not counting lunch or travel
+long_visit_minutes: 150               # at most one visit this long per day: no Louvre and Orsay on the same day. At 120 it also
+                                      # caught neighbourhood walks, and four such must sees could never fit in three days
+category_max_per_day: {worship: 1, market: 1, shopping: 1, cemetery: 1, neighbourhood: 1, bridge: 1, square: 1, street: 1}
+category_max_default: 2
+# Estimates. Hotels: median double room by stars in Paris, July 2026 (lavie.maison); the 1 star figure is ours.
+hotel_eur_by_stars: {1: 90, 2: 130, 3: 180, 4: 275, 5: 685}   # per room per night
+# Estimates. Budget place, bistro, upscale; from Paris cost guides, 2024 to 2025.
+meal_eur_by_tier: {1: 18, 2: 35, 3: 80}                       # per person
+breakfast_eur: 10                     # per person per day, a flat estimate
+agents:
+  sample_near_attractions: 30
+  sample_random_attractions: 15
+  sample_near_restaurants: 10
+  sample_random_restaurants: 5
+  score_batch: 10
+  max_changes_per_reply: 3
+  candidates_in_reply: 20
+negotiation:
+  max_rounds: 4
+  max_requests_per_member: 2
+  max_drop: 0.02                # how far the group's predicted mean and lowest satisfaction may fall from the start.
+                                # Chosen on the development groups, scripts/design_checks/compare_negotiation.py
+  weight_min_factor: 0.5
+  weight_max_factor: 2.0
+optimizer:
+  top_attractions: 120
+  top_attractions_per_member: 10
+  top_restaurants: 80
+  top_restaurants_per_member: 5
+  top_hotels: 15
+  hotel_share_max: 0.5          # hotel share at most half of the lowest budget
+  min_attractions_per_day: 2
+  time_limit_s: 20
+  workers: 8
+  seed: 7
+  fairness_threshold: 0.6
+  fairness_step: 0.05
+model:
+  slope_floor: 1.0              # the line from profile score to agent score: the profile always keeps at least its own scale
+  own_score_share: 0.25         # chosen on 12 development groups, scripts/design_checks/compare_real_models.py
+  pca_dims: 16                  # of the place embeddings, for learning from feedback
+  feedback_alpha: 1000          # how far feedback spreads to similar places. Lower hurt on development groups, compare_feedback_real.py
+  nudge_limit: 1.0              # a feedback target moves at most this far from the current prediction
+  feedback_targets: {remove: 0, add: 5, up: 4, down: 1}
+  first_design_alphas: [1, 10, 100, 1000, 10000]   # kept only to compare against the first design in E2
+experiment:
+  seed: 7
+  groups_per_type: 10
+  trip_days: 3
+  start_date: "2026-12-04"      # a Friday, fixed so every run has the same weekdays
+  pair_timeout_s: 600
+  interest_weight: 1.0          # each traveler's specific passion, up to 2 points on the 0..5 scale of true utility
+app:
+  max_trips_per_visitor: 3
+  max_trips_per_day: 40
+  max_rounds: 3
+  time_limit_s: 10
+  workers: 2                    # Streamlit Community Cloud has little CPU
+  feedback_rounds: 3

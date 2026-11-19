@@ -1,0 +1,49 @@
+[server]
+headless = true
+enableStaticServing = true          # serves static/, used for the fonts
+disconnectedSessionTTL = 1800       # a phone that locks during planning can come back to its session
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showSidebarNavigation = false
+showErrorDetails = "none"           # visitors never see a stack trace
+
+[theme]
+base = "light"
+primaryColor = "#171717"
+backgroundColor = "#F1EFEA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#0A0A0A"
+linkColor = "#8C7340"
+borderColor = "#E0DDD6"
+showWidgetBorder = true
+baseRadius = "10px"
+buttonRadius = "10px"
+font = "Satoshi, ui-sans-serif, system-ui, sans-serif"
+headingFont = "Cinzel, Georgia, serif"
+headingFontWeights = 400
+
+# Satoshi loads from Fontshare, its maker's own servers, as its free licence asks: the files are not in this repository.
+[[theme.fontFaces]]
+family = "Satoshi"
+url = "https://cdn.fontshare.com/wf/TTX2Z3BF3P6Y5BQT3IV2VNOK6FL22KUT/7QYRJOI3JIMYHGY6CH7SOIFRQLZOLNJ6/KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Satoshi"
+url = "https://cdn.fontshare.com/wf/P2LQKHE6KA6ZP4AAGN72KDWMHH6ZH3TA/ZC32TK2P7FPS5GFTL46EU6KQJA24ZYDB/7AHDUZ4A7LFLVFUIFSARGIWCRQJHISQP.woff2"
+weight = 500
+
+[[theme.fontFaces]]
+family = "Satoshi"
+url = "https://cdn.fontshare.com/wf/LAFFD4SDUCDVQEXFPDC7C53EQ4ZELWQI/PXCT3G6LO6ICM5I3NTYENYPWJAECAWDD/GHM6WVH6MILNYOOCXHXB5GTSGNTMGXZR.woff2"
+weight = 700
+
+# Cinzel, SIL Open Font License (static/fonts/Cinzel-OFL.txt)
+[[theme.fontFaces]]
+family = "Cinzel"
+url = "app/static/fonts/Cinzel.ttf"
+weight = 400

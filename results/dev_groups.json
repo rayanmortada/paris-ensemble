@@ -1,0 +1,1281 @@
+[
+ {
+  "group_id": "friends-00",
+  "kind": "friends",
+  "members": [
+   {
+    "member_id": "m1",
+    "name": "Sara",
+    "w": [
+     0.08328929221154,
+     0.003535695574001477,
+     7.448397110425158e-11,
+     0.061513480812473674,
+     1.2094932770925081e-05,
+     2.236902522371978e-05,
+     0.8188528617645174,
+     0.022947575655432435,
+     0.00018076649797959147,
+     0.009645863451576697
+    ],
+    "budget_eur": 450.0,
+    "price_sensitivity": 1.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "relaxed",
+    "noise_seed": 457751914,
+    "interest": "Asian and world cultures"
+   },
+   {
+    "member_id": "m2",
+    "name": "Omar",
+    "w": [
+     0.10987055974174793,
+     0.020389503485274286,
+     2.186010068116171e-14,
+     0.06739264277129217,
+     9.638008654819521e-06,
+     0.00010795582649994827,
+     0.7462293628650684,
+     0.05039981219742572,
+     0.0021660092241304637,
+     0.003434515879884648
+    ],
+    "budget_eur": 450.0,
+    "price_sensitivity": 1.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [
+     "wd:Q1200698"
+    ],
+    "pace": "packed",
+    "noise_seed": 1943632856,
+    "interest": "science and natural history"
+   },
+   {
+    "member_id": "m3",
+    "name": "Lina",
+    "w": [
+     0.15237864647782423,
+     1.2434108676868264e-05,
+     3.7670972158639245e-05,
+     0.05770819236440758,
+     0.00023736541085455254,
+     1.447757884094554e-10,
+     0.6725182730457782,
+     0.09552254292136503,
+     0.00256830716725701,
+     0.01901656738690219
+    ],
+    "budget_eur": 1600.0,
+    "price_sensitivity": 0.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [
+     "wd:Q1200698"
+    ],
+    "pace": "normal",
+    "noise_seed": 271747357,
+    "interest": "science and natural history"
+   },
+   {
+    "member_id": "m4",
+    "name": "Karim",
+    "w": [
+     0.10559092970071324,
+     0.002156295755795901,
+     2.984586589761876e-07,
+     0.13216487972914603,
+     3.267182117185814e-06,
+     8.53145558169844e-09,
+     0.6807292976757884,
+     0.07743088918281438,
+     0.0008312672276931761,
+     0.0010928665558170383
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": true,
+    "mobility": true,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 840533300,
+    "interest": "photography and big city views"
+   }
+  ],
+  "wishes": {
+   "m1": "I’d really love this trip to focus on Asian and world cultures, like museums, exhibits, food spots, and shops with things from different countries. I’m also very into shopping, especially markets or affordable little stores, and I’d be happy with some art museums and good but budget-friendly restaurants too. I’m not too bothered about parks, nature, or just looking at pretty buildings, and I’d prefer a relaxed pace since my budget is tight.",
+   "m2": "I’m really keen to make the trip heavy on science and natural history, especially museums with fossils, specimens, space, or quirky old scientific collections. I’d also love to fit in plenty of shopping, with Le Bon Marché as a must, plus some art museums and a few good but budget-friendly places to eat. I’m not bothered about parks, nature walks, or looking at pretty buildings, and I’m happy for the schedule to be packed as long as we keep costs down.",
+   "m3": "I’m really keen to make the trip about science and natural history, so I’d love to fit in museums or exhibits with fossils, animals, space, or weird scientific discoveries. I also definitely want to go to Le Bon Marché for some proper shopping, and I’m up for art museums plus a bit of nightlife in the evenings. I’m not too fussed about old historic sites or viewpoint stops, and I’m happy with a comfortable budget and a normal pace.",
+   "m4": "I’m really keen to get some great city photography in, especially big urban viewpoints and lively street scenes. I’d also love time for shopping, vegetarian-friendly restaurants, and a few art museums, but I’m not fussed about spending ages on architecture or pretty buildings. A normal pace and mid-range budget works for me, though I can’t walk too far, so I’ll need breaks or short travel hops."
+  },
+  "start_date": "2026-12-04",
+  "days": 3
+ },
+ {
+  "group_id": "friends-01",
+  "kind": "friends",
+  "members": [
+   {
+    "member_id": "m1",
+    "name": "Sara",
+    "w": [
+     0.3260487526938017,
+     0.01893286416266772,
+     1.9530749775175335e-07,
+     0.00022955303083844626,
+     0.2041609576010511,
+     0.10616719304105238,
+     0.029465101137105282,
+     0.031831426623969976,
+     0.2811249628068376,
+     0.0020389935951780594
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 1009143511,
+    "interest": "gardens and quiet green walks"
+   },
+   {
+    "member_id": "m2",
+    "name": "Omar",
+    "w": [
+     0.36042964887332385,
+     2.6583215139743903e-06,
+     6.33613992235019e-08,
+     0.01369979874193889,
+     0.3184743894365042,
+     0.1378246938682226,
+     0.01246779480278437,
+     0.0059536745650639045,
+     0.140988540064466,
+     0.01015873796478302
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [
+     "wd:Q271639"
+    ],
+    "pace": "packed",
+    "noise_seed": 856364130,
+    "interest": "the French Revolution and Napoleon"
+   },
+   {
+    "member_id": "m3",
+    "name": "Lina",
+    "w": [
+     0.18811614683923708,
+     0.06631423204822388,
+     0.0003950246134590619,
+     0.0008330123848244861,
+     0.27943862167978795,
+     0.06222523176374115,
+     0.047683375927964455,
+     0.03212331857036652,
+     0.1560649677701193,
+     0.16680606840227621
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 1578699322,
+    "interest": "science and natural history"
+   }
+  ],
+  "wishes": {
+   "m1": "I’d really love this trip to include plenty of gardens and quiet green walks, with time to just wander and relax away from the crowds. I’m also keen on art and museums, especially if we can mix in parks, nature, and a few activities that would still be fun for children and teenagers. I’m not fussed about fancy food or beautiful buildings, and a medium-budget, steady pace sounds good to me.",
+   "m2": "I’m really keen to make the trip focus on the French Revolution and Napoleon, especially museums or exhibits with paintings, objects, and stories from that era. I’d also love plenty of art museums, plus some park time and nature, with activities that would still be fun for kids and teens. I’m happy with a medium budget and a packed pace, and I’d definitely like us to see Bois de Vincennes. I don’t have any special needs.",
+   "m3": "I’m really keen to make the trip about science and natural history, so I’d love to visit museums or exhibits with fossils, animals, evolution, space, or hands-on science stuff. I’d also be happy spending time in parks and green spaces, wandering local neighbourhoods, checking out markets, and seeing a bit of art in museums. I’m not too bothered about fancy food, restaurants, or architecture, and a medium-budget, normal-paced trip sounds perfect to me."
+  },
+  "start_date": "2026-12-04",
+  "days": 3
+ },
+ {
+  "group_id": "friends-02",
+  "kind": "friends",
+  "members": [
+   {
+    "member_id": "m1",
+    "name": "Sara",
+    "w": [
+     0.011022529146827954,
+     0.42322439705152126,
+     0.0406830520574921,
+     0.005123947958409577,
+     1.0175173978838482e-05,
+     0.043541013518712667,
+     0.003195387174120021,
+     0.15988462261229303,
+     0.0033477485318863243,
+     0.30996712677475835
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 303055504,
+    "interest": "street markets and food shopping"
+   },
+   {
+    "member_id": "m2",
+    "name": "Omar",
+    "w": [
+     0.006744521443182711,
+     0.38193191999437054,
+     0.09192723604270253,
+     0.019648727505374268,
+     0.0013578950760527492,
+     0.035303320336330386,
+     7.380145635282091e-12,
+     0.18165983936629876,
+     0.006838742577831214,
+     0.2745877976504767
+    ],
+    "budget_eur": 450.0,
+    "price_sensitivity": 1.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 1576124960,
+    "interest": "gardens and quiet green walks"
+   },
+   {
+    "member_id": "m3",
+    "name": "Lina",
+    "w": [
+     0.03310727719207726,
+     0.5291001535255492,
+     0.01421602259922731,
+     0.0016379230897479267,
+     1.9160061578647707e-09,
+     0.008070003076639817,
+     0.00790739854124013,
+     0.18676211781971203,
+     0.03287375427395243,
+     0.18632534796584754
+    ],
+    "budget_eur": 450.0,
+    "price_sensitivity": 1.0,
+    "vegetarian": true,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 669562725,
+    "interest": "medieval churches and Gothic architecture"
+   },
+   {
+    "member_id": "m4",
+    "name": "Karim",
+    "w": [
+     0.0014982950006288155,
+     0.6138703201663199,
+     0.0831179868131019,
+     0.01539600627848585,
+     6.995596698160842e-06,
+     0.0745435769490046,
+     0.009336674705335887,
+     0.09197590891391542,
+     0.006203256336849478,
+     0.1040509792396601
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": true,
+    "must_see": [
+     "wd:Q329948"
+    ],
+    "pace": "packed",
+    "noise_seed": 1829730414,
+    "interest": "modern and contemporary art"
+   }
+  ],
+  "wishes": {
+   "m1": "I’m really keen to spend time browsing street markets and food shops, tasting local stuff and seeing what people actually buy and cook. I’d also love some old buildings, historic sites, and a bit of royal or city history, plus time wandering interesting neighbourhoods and seeing everyday local life. I’m up for some nightlife too, but I’m not bothered about regular shopping or parks, and a normal pace on a medium budget sounds good.",
+   "m2": "I’m mostly excited for gardens and quiet green walks, so I’d love to build in some calm leafy wanderings where we can slow down a bit. I’m also keen on old churches, royal history, historic streets, local markets, everyday neighbourhood life, and maybe a casual night out. My budget’s tight, so I’d rather keep things affordable and skip shopping-heavy plans.",
+   "m3": "I'm really keen to focus on medieval churches and Gothic architecture, so I'd love to spend time seeing old stone churches, stained glass, arches, and historic religious buildings. I'm also into historic sites with royal or medieval backstories, and I'd enjoy wandering neighbourhoods, checking out markets, and getting a feel for everyday local life, with maybe some casual nightlife too. I'm on a tight budget and I'm vegetarian, so I don't need fancy restaurants or park time, just affordable options and a normal pace.",
+   "m4": "I’m really into modern and contemporary art, so I’d love to catch that side of the city, but I’m not keen on spending the trip in big museums. I’m also up for historic sites, especially old churches and royal history, plus wandering lively neighbourhoods, checking out markets, everyday local life, and some nightlife. I’d like a packed schedule on a medium budget, but I have difficulty walking far, so please build in short hops or breaks, and I definitely want to see Palais-Royal Gardens."
+  },
+  "start_date": "2026-12-04",
+  "days": 3
+ },
+ {
+  "group_id": "family-00",
+  "kind": "family",
+  "members": [
+   {
+    "member_id": "m1",
+    "name": "Sara",
+    "w": [
+     0.1612281459311431,
+     0.023969138405394608,
+     0.060970486580131024,
+     0.0632085365713854,
+     0.09087051483658465,
+     0.1816834959691249,
+     0.09828080127708223,
+     2.657415589379333e-09,
+     0.2115187317672928,
+     0.10827014600444555
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 273048988,
+    "interest": "the French Revolution and Napoleon"
+   },
+   {
+    "member_id": "m2",
+    "name": "Omar",
+    "w": [
+     0.052532696513135524,
+     0.0715384289256901,
+     0.07843084728436861,
+     0.1719013300231464,
+     0.18825016237819414,
+     0.07273009224950222,
+     0.08978553159772737,
+     0.00028949295364826975,
+     0.15866016759920534,
+     0.11588125047538193
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": true,
+    "mobility": false,
+    "must_see": [
+     "wd:Q309458"
+    ],
+    "pace": "relaxed",
+    "noise_seed": 2093326448,
+    "interest": "photography and big city views"
+   },
+   {
+    "member_id": "m3",
+    "name": "Lina",
+    "w": [
+     0.0061604572156181625,
+     0.025012450315306894,
+     0.1785297393386761,
+     6.569185346195742e-05,
+     0.0022742084217334015,
+     0.11765076686437016,
+     0.1868020407448099,
+     0.3173753998945249,
+     0.1653208943202591,
+     0.0008083510312393725
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [
+     "wd:Q730948"
+    ],
+    "pace": "normal",
+    "noise_seed": 1108797243,
+    "interest": "gardens and quiet green walks"
+   }
+  ],
+  "wishes": {
+   "m1": "I’m mainly excited to dig into the French Revolution and Napoleon side of things, so anything that brings that era to life would be perfect. I’d also love kid- and teen-friendly activities, plus some great viewpoints and a bit of art or museum time. I’m not really bothered about general historic sites or nightlife, and I’m happy with a mid-range budget and a normal pace.",
+   "m2": "I’d really love this trip to focus on photography and big city views, with plenty of relaxed time to get good shots without rushing. I definitely want to see Luxembourg Gardens, and I’d also enjoy leafy parks, nature spots, good vegetarian-friendly restaurants, and activities that children and teenagers would actually enjoy. I’m not too fussed about art, museums, or nightlife, and I’d like to keep things medium-budget and easygoing.",
+   "m3": "I’d really love this Paris trip to focus on gardens and calm green walks, with Jardin des Plantes as my must-see. I’m also up for some fun nightlife, a bit of shopping, and wandering past impressive architecture and beautiful buildings. I’m not too bothered about markets, local neighbourhood exploring, or planning around food, and I’m happy with a medium budget and a normal pace."
+  },
+  "start_date": "2026-12-04",
+  "days": 3
+ },
+ {
+  "group_id": "family-01",
+  "kind": "family",
+  "members": [
+   {
+    "member_id": "m1",
+    "name": "Sara",
+    "w": [
+     0.10077140988317874,
+     0.0026257846669953907,
+     0.2406427112639486,
+     0.17487188929522846,
+     0.004911178523394833,
+     0.06910804169173398,
+     0.1543636929966596,
+     0.1811977799621154,
+     0.07146924162213261,
+     3.827009461241064e-05
+    ],
+    "budget_eur": 450.0,
+    "price_sensitivity": 1.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [
+     "wd:Q186115"
+    ],
+    "pace": "relaxed",
+    "noise_seed": 1748467640,
+    "interest": "science and natural history"
+   },
+   {
+    "member_id": "m2",
+    "name": "Omar",
+    "w": [
+     0.06569864669462344,
+     0.03164728504454913,
+     0.39524172558870113,
+     0.1903228704921247,
+     0.030062821115938863,
+     0.006764279123049904,
+     0.04374060772916081,
+     0.030395096536844194,
+     0.20564439366701023,
+     0.000482274007997587
+    ],
+    "budget_eur": 450.0,
+    "price_sensitivity": 1.0,
+    "vegetarian": false,
+    "mobility": true,
+    "must_see": [],
+    "pace": "packed",
+    "noise_seed": 1619711523,
+    "interest": "writers and literary Paris"
+   },
+   {
+    "member_id": "m3",
+    "name": "Lina",
+    "w": [
+     0.019251024624467497,
+     0.0023211188990064353,
+     0.0006659026308955411,
+     0.007431125168622077,
+     0.008633120854103846,
+     0.43211536500487924,
+     0.13555357920131153,
+     0.22988313598431137,
+     0.12437136787440663,
+     0.0397742597579958
+    ],
+    "budget_eur": 450.0,
+    "price_sensitivity": 1.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "packed",
+    "noise_seed": 1130262988,
+    "interest": "photography and big city views"
+   }
+  ],
+  "wishes": {
+   "m1": "I’m really keen to make the trip about science and natural history, so I’d love to fit in anything with fossils, animals, space, or weird nature stuff. I also want to see beautiful buildings and impressive architecture, and I’m up for good food and a bit of nightlife as long as we keep it budget-friendly and not too rushed. I’m not bothered about historic sites, markets, or wandering everyday neighbourhoods, but I’d definitely like to see Montmartre, and I don’t have any special needs.",
+   "m2": "I’d really love the trip to focus on writers and literary Paris, like places connected to famous authors, bookish cafés, and anything with a strong literary story. I’m also keen on beautiful buildings and architecture, plus good food that works for children and teenagers, but I’m not too bothered about viewpoints, wandering neighbourhoods, markets, or everyday local-life stuff. I’m on a tight budget and happy with a packed schedule, but I do have difficulty walking far, so I’ll need short walks or easy transport between stops.",
+   "m3": "I’m really into photography and big city views, so I’d love to chase panoramas and cool lookout spots where I can get great shots. I’m not fussed about old buildings, architecture, or historic sites, but I’d be up for some nightlife and a bit of shopping if we can keep it cheap. I’m happy with a packed pace and squeezing in as many viewpoints as we can."
+  },
+  "start_date": "2026-12-04",
+  "days": 3
+ },
+ {
+  "group_id": "family-02",
+  "kind": "family",
+  "members": [
+   {
+    "member_id": "m1",
+    "name": "Sara",
+    "w": [
+     0.07418156974033678,
+     0.13531778072838493,
+     0.1345356334100336,
+     0.2404003312527552,
+     0.0417257133704611,
+     0.12085074652605114,
+     0.03651962078929947,
+     0.08129229027428805,
+     0.11776111365790036,
+     0.017415200250489232
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 1398910722,
+    "interest": "modern and contemporary art"
+   },
+   {
+    "member_id": "m2",
+    "name": "Omar",
+    "w": [
+     0.07038764888920748,
+     0.1030314252219145,
+     0.15947034731456997,
+     0.223456715011783,
+     0.16573030522195933,
+     0.04516602479305591,
+     0.010442704830821844,
+     0.07439173678596646,
+     0.10767431334269122,
+     0.04024877858803018
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [
+     "wd:Q641548"
+    ],
+    "pace": "normal",
+    "noise_seed": 314677988,
+    "interest": "ancient Rome and archaeology"
+   },
+   {
+    "member_id": "m3",
+    "name": "Lina",
+    "w": [
+     0.021286619315183244,
+     2.0925360813364534e-07,
+     0.024747481176317716,
+     6.470760204588867e-06,
+     6.471057448319173e-05,
+     0.15244116457132553,
+     0.04031557879659961,
+     0.49581080660289323,
+     0.26434712754820966,
+     0.0009798314011750713
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": true,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 1491770041,
+    "interest": "modern and contemporary art"
+   }
+  ],
+  "wishes": {
+   "m1": "I’m most excited about modern and contemporary art, so I’d love to build in time for galleries, exhibitions, and anything with bold newer work. I’m also very up for good restaurants and memorable food, plus historic sites, old buildings, and impressive architecture. I’m not really bothered about shopping, markets, or wandering around just to soak up local life, and I’m happy with a medium-budget, normal-paced trip.",
+   "m2": "I’m really keen to make ancient Rome and archaeology the focus of my trip, so I definitely want to see Arènes de Lutèce. I’d also love some good meals at nice restaurants, plus time for parks, nature, and beautiful architecture. I’m not too bothered about wandering neighbourhoods, markets, everyday local life, or shopping, and a normal pace with a medium budget sounds good to me.",
+   "m3": "I’m really keen to make modern and contemporary art the main focus of the trip, so I’d love to fit in some galleries or exhibitions. I’m also up for a bit of nightlife, plus fun stuff that works for kids and teens and some great skyline views. I’m not fussed about fancy meals, old buildings, or historic sightseeing, and I’ll need to keep walks manageable because I have difficulty walking far."
+  },
+  "start_date": "2026-12-04",
+  "days": 3
+ },
+ {
+  "group_id": "colleagues-00",
+  "kind": "colleagues",
+  "members": [
+   {
+    "member_id": "m1",
+    "name": "Sara",
+    "w": [
+     0.001793168981220282,
+     0.02709921240850572,
+     0.19227790198783162,
+     0.0007789944277586488,
+     0.0009405529253919487,
+     0.08354430783541167,
+     0.15186787798480952,
+     0.03734393174446605,
+     0.19915527690643667,
+     0.3051987747981678
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 317765136,
+    "interest": "Impressionist painting"
+   },
+   {
+    "member_id": "m2",
+    "name": "Omar",
+    "w": [
+     0.006357155405023851,
+     0.03071120494309255,
+     0.06958595015166227,
+     0.0182634958074322,
+     0.011437685143873404,
+     0.015803111712745743,
+     0.0787949215613507,
+     0.20385374806002565,
+     0.5589396246471592,
+     0.006253102567634258
+    ],
+    "budget_eur": 1600.0,
+    "price_sensitivity": 0.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 2025558876,
+    "interest": "opera, music and theatre"
+   },
+   {
+    "member_id": "m3",
+    "name": "Lina",
+    "w": [
+     0.009504386606073193,
+     0.023099691636899664,
+     0.2949462294863346,
+     0.03628620848658013,
+     0.06724801989492085,
+     0.3063178996977107,
+     0.002780802343420462,
+     0.05347984850254666,
+     0.0005034384886113058,
+     0.2058334748569024
+    ],
+    "budget_eur": 1600.0,
+    "price_sensitivity": 0.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 390863302,
+    "interest": "opera, music and theatre"
+   },
+   {
+    "member_id": "m4",
+    "name": "Karim",
+    "w": [
+     0.009346732400691376,
+     0.15407833561765308,
+     0.20077274530071626,
+     0.010070255182076316,
+     0.11774943399561563,
+     0.07229549787813538,
+     0.2847025894247162,
+     0.03229496295733231,
+     0.0038391478845468284,
+     0.1148502993585166
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": true,
+    "must_see": [
+     "wd:Q329948"
+    ],
+    "pace": "normal",
+    "noise_seed": 1141623263,
+    "interest": "modern and contemporary art"
+   }
+  ],
+  "wishes": {
+   "m1": "I’m really keen to make Impressionist painting the main thing for me on this trip, so I’d love to spend proper time seeing those works rather than rushing through. I’d also enjoy wandering interesting neighbourhoods, checking out markets, and getting a feel for everyday local life, plus seeing beautiful architecture and buildings. It would be great if we mix in some activities that work for kids and teens too, but I’m not fussed about parks, nature, or foodie stops. I’m happy with a medium budget and a normal pace.",
+   "m2": "I’d really love this Paris trip to include plenty of opera, live music, and theatre, since that’s the big thing I’m most excited about. I’m also keen on fun activities that would work well for children and teenagers, plus some lively nightlife and good shopping. I’m not too fussed about art museums, wandering neighbourhoods, markets, or everyday local-life stuff, and I’m happy with a comfortable budget and a normal pace.",
+   "m3": "I’d love the trip to have plenty of opera, live music, and theatre, since that’s what I’m most excited about. I’m also really into great views and panoramas, beautiful architecture, interesting neighbourhoods, and markets where we can see everyday local life. I’m not fussed about shopping or kid-friendly activities, and I’m happy with a comfortable budget and a normal pace.",
+   "m4": "I’m really into modern and contemporary art, so I’d love the trip to include some time for that, even though I’m not keen on doing loads of general museums. I’d also enjoy good shopping, beautiful architecture, old buildings, and royal history, with Palais-Royal Gardens as my must-see. I’ve got a medium budget and I’m happy with a normal pace, but I do have difficulty walking far, so I’ll need routes and plans that keep that in mind."
+  },
+  "start_date": "2026-12-04",
+  "days": 3
+ },
+ {
+  "group_id": "colleagues-01",
+  "kind": "colleagues",
+  "members": [
+   {
+    "member_id": "m1",
+    "name": "Sara",
+    "w": [
+     0.0645295889058512,
+     0.4011062480346498,
+     0.14418584933816486,
+     0.01243088146883695,
+     0.006043106552102476,
+     0.18641913652745068,
+     0.0016338162614947822,
+     0.16844727688264657,
+     0.011837540425584964,
+     0.003366555603217835
+    ],
+    "budget_eur": 450.0,
+    "price_sensitivity": 1.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [
+     "wd:Q186115"
+    ],
+    "pace": "relaxed",
+    "noise_seed": 806177249,
+    "interest": "writers and literary Paris"
+   },
+   {
+    "member_id": "m2",
+    "name": "Omar",
+    "w": [
+     0.3208669909970519,
+     0.0009185281347682616,
+     0.0943679747427125,
+     0.006661545916931163,
+     0.1671769257295386,
+     0.11155086491304825,
+     0.021163218958891946,
+     0.015383922673060815,
+     0.26159121506039434,
+     0.0003188128736023194
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [
+     "wd:Q186115"
+    ],
+    "pace": "packed",
+    "noise_seed": 1916681761,
+    "interest": "street art and bohemian neighbourhoods"
+   },
+   {
+    "member_id": "m3",
+    "name": "Lina",
+    "w": [
+     0.04300061428953718,
+     0.3875339531581496,
+     0.029922242949752195,
+     0.0037625872684616366,
+     0.012650657817737828,
+     0.001978655101602007,
+     0.31212202945992257,
+     0.20866797977755405,
+     6.976105602142272e-05,
+     0.00029151912126144344
+    ],
+    "budget_eur": 1600.0,
+    "price_sensitivity": 0.0,
+    "vegetarian": false,
+    "mobility": true,
+    "must_see": [],
+    "pace": "packed",
+    "noise_seed": 2015107236,
+    "interest": "writers and literary Paris"
+   },
+   {
+    "member_id": "m4",
+    "name": "Karim",
+    "w": [
+     0.019723745417684395,
+     0.009334291373242072,
+     0.2195545875367405,
+     0.06631889919217891,
+     0.36924165079796956,
+     0.05477067294988298,
+     0.04969040971993333,
+     0.0004995338709104555,
+     0.0020681746918524055,
+     0.20879803444960537
+    ],
+    "budget_eur": 450.0,
+    "price_sensitivity": 1.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "packed",
+    "noise_seed": 775520036,
+    "interest": "Asian and world cultures"
+   },
+   {
+    "member_id": "m5",
+    "name": "Maya",
+    "w": [
+     0.11902389660765746,
+     0.10463038503057061,
+     0.07301449474452647,
+     0.035011728400349655,
+     0.2623524706142621,
+     0.037827028040990314,
+     0.2253061056702265,
+     0.08204987584893103,
+     0.05086843835292031,
+     0.009915576689565534
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "packed",
+    "noise_seed": 16509803,
+    "interest": "science and natural history"
+   }
+  ],
+  "wishes": {
+   "m1": "I’d love the trip to focus on writers and literary Paris, with Montmartre as my must-see. I’m also keen on historic sites tied to old churches, revolutions, royal stories, or famous thinkers, plus a good viewpoint or panorama if it fits. I’m up for a bit of nightlife, but I’d rather skip shopping, markets, and just wandering local neighbourhoods. I’m on a tight budget and would prefer a relaxed pace.",
+   "m2": "I’m really keen to focus on street art and bohemian vibes, with Montmartre as my must-see. I’d also love plenty of art and museum time, plus some fun stops that work for kids and teenagers and a bit of parks or nature when we need a breather. I’m up for a packed schedule on a medium budget, but I’d rather skip historic sights, markets, and everyday local-life wandering.",
+   "m3": "I’m really keen to make this trip all about writers and literary Paris, so I’d love to see cafés, homes, bookshops, and spots linked to famous authors. I’m also up for historic sites, especially old churches, palaces, and royal or revolutionary history, plus some stylish shopping and a bit of nightlife. I’m happy with a packed schedule and a comfortable budget, but I have difficulty walking far, so I’ll need taxis, short routes, and plenty of planned breaks.",
+   "m4": "I’d love this trip to lean into Asian and world cultures, especially places where we can see different traditions, food, crafts, and everyday local life. I’m also really into parks and nature, beautiful buildings, interesting neighbourhoods, and markets where locals actually shop. I’m happy with a packed schedule, but I’m on a tight budget and would rather skip kid-friendly activities and nightlife.",
+   "m5": "I’m really keen to make the trip heavy on science and natural history, especially museums with fossils, animals, minerals, or anything about the natural world. I’d also love plenty of parks and green spaces, plus some time for art museums and a bit of shopping. I’m not bothered about foodie stops, markets, or wandering local neighbourhoods, and I’m happy with a packed pace on a medium budget."
+  },
+  "start_date": "2026-12-04",
+  "days": 3
+ },
+ {
+  "group_id": "colleagues-02",
+  "kind": "colleagues",
+  "members": [
+   {
+    "member_id": "m1",
+    "name": "Sara",
+    "w": [
+     0.04564301839723377,
+     0.16310123572817617,
+     0.09895340050584309,
+     0.12164076846912467,
+     0.029048781420200953,
+     0.31260621000035704,
+     0.02669526673209043,
+     0.05846933072280897,
+     0.0008589828591903177,
+     0.14298300516497445
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 656132738,
+    "interest": "street art and bohemian neighbourhoods"
+   },
+   {
+    "member_id": "m2",
+    "name": "Omar",
+    "w": [
+     0.004095683749715775,
+     0.3805290675747426,
+     0.0003206004868790309,
+     0.01681495702861317,
+     0.13907667272228783,
+     1.1152839272820645e-05,
+     0.2360771177502949,
+     0.05819649501335859,
+     0.025170448965366316,
+     0.13970780386946882
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "relaxed",
+    "noise_seed": 2101844729,
+    "interest": "fashion and design"
+   },
+   {
+    "member_id": "m3",
+    "name": "Lina",
+    "w": [
+     0.29793063598281566,
+     0.1226603558065619,
+     0.045498226906778495,
+     0.0012654981039394871,
+     0.274258607306538,
+     0.05657837248716682,
+     0.17063612256532854,
+     0.026631041869046322,
+     0.0005176446560979747,
+     0.004023494315726674
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [
+     "wd:Q2981"
+    ],
+    "pace": "packed",
+    "noise_seed": 1420974103,
+    "interest": "medieval churches and Gothic architecture"
+   },
+   {
+    "member_id": "m4",
+    "name": "Karim",
+    "w": [
+     0.05355924170899711,
+     0.13126612880034838,
+     0.05149014409496529,
+     0.18430243087926038,
+     0.07401556345104132,
+     0.07264125191338681,
+     0.2575047542947226,
+     0.011381455854728054,
+     0.1529380483432622,
+     0.010900980659288075
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 621950452,
+    "interest": "photography and big city views"
+   }
+  ],
+  "wishes": {
+   "m1": "I’m really keen to spend time finding street art and wandering bohemian neighbourhoods with a creative, lived-in feel. I’d also love some great viewpoints and panoramas, plus historic streets, old buildings, markets, and glimpses of everyday local life. I’m not bothered about shopping or kid-friendly activities, and a mid-range, normal-paced trip sounds perfect to me.",
+   "m2": "I’d really love this trip to focus on fashion and design, from stylish shops to places where we can see what local designers are into. I’m also keen on historic sites, especially anything tied to old royal life or the city’s past, plus wandering neighbourhoods, browsing markets, and seeing everyday Paris life. I’m not bothered about architecture, pretty buildings, or viewpoints, and I’d prefer a relaxed pace with a medium budget.",
+   "m3": "I’m really keen to make medieval churches and Gothic architecture the focus, and Notre-Dame Cathedral is my must-see. I’d also love to fit in plenty of art and museums, plus some parks and nature and a bit of shopping if we can. I’m happy with a packed pace and a medium budget, but I’m not bothered about foodie stops or kid-friendly activities.",
+   "m4": "I’d really love this trip to be great for photography, especially getting big city views and cool skyline shots. I’m also keen on some shopping, good food and restaurants, and a few activities that would be fun for both children and teenagers. I’m not bothered about nightlife, wandering neighbourhoods, markets, or everyday local-life stuff, and a medium budget with a normal pace sounds perfect."
+  },
+  "start_date": "2026-12-04",
+  "days": 3
+ },
+ {
+  "group_id": "minority-00",
+  "kind": "minority",
+  "members": [
+   {
+    "member_id": "m1",
+    "name": "Sara",
+    "w": [
+     0.001065272658191762,
+     0.018493472257461074,
+     0.2583631108411816,
+     0.3013553536089566,
+     0.12176168089730834,
+     0.060121308038200164,
+     0.05688356870645401,
+     0.16263336484644583,
+     0.011182698988647644,
+     0.008140169157153031
+    ],
+    "budget_eur": 1600.0,
+    "price_sensitivity": 0.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 1322082019,
+    "interest": "modern and contemporary art"
+   },
+   {
+    "member_id": "m2",
+    "name": "Omar",
+    "w": [
+     0.009272786996439717,
+     0.0037389648581848153,
+     0.2192824041038969,
+     0.14317179092993287,
+     0.28475742801883225,
+     0.010556317304920343,
+     0.13969625001149993,
+     0.16629584009314435,
+     0.0002814381114734451,
+     0.022946779571675357
+    ],
+    "budget_eur": 450.0,
+    "price_sensitivity": 1.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [
+     "wd:Q186115"
+    ],
+    "pace": "relaxed",
+    "noise_seed": 1752438944,
+    "interest": "writers and literary Paris"
+   },
+   {
+    "member_id": "m3",
+    "name": "Lina",
+    "w": [
+     0.00014972190396246902,
+     0.002753520484250358,
+     0.14122521239536953,
+     0.24361121428071755,
+     0.27193404710944574,
+     0.0847750259049024,
+     0.12188840442410583,
+     0.06286310073346658,
+     0.005062515623585054,
+     0.06573723714019436
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": true,
+    "mobility": false,
+    "must_see": [
+     "wd:Q271639"
+    ],
+    "pace": "normal",
+    "noise_seed": 689038702,
+    "interest": "the French Revolution and Napoleon"
+   },
+   {
+    "member_id": "m4",
+    "name": "Karim",
+    "w": [
+     0.2876001309104551,
+     0.20422126340045899,
+     0.030137245612879022,
+     0.045268166269410035,
+     0.007117333175885061,
+     0.01130746536292743,
+     0.04486692124069465,
+     0.08352529745507191,
+     0.0391256676603424,
+     0.2468305089118753
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": true,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 81067340,
+    "interest": "street markets and food shopping"
+   }
+  ],
+  "wishes": {
+   "m1": "I’m really into modern and contemporary art, so I’d love the trip to include some standout galleries or exhibitions rather than lots of general museum time. I’m also keen on great food and good restaurants, plus beautiful architecture and impressive buildings to wander past. A bit of nightlife would be fun too, and I’m comfortable budget-wise with a normal pace; I don’t have any special needs.",
+   "m2": "I’m really excited to soak up the writers’ side of Paris, especially cafés, bookish corners, and anything tied to literary life, and I definitely want to see Montmartre. I’d also love relaxed time in parks and green spaces, plus some beautiful buildings and architecture along the way. I’m up for a bit of nightlife, but I’d rather skip historic-site-heavy stuff or anything aimed at kids and teens, and I’m trying to keep things budget-friendly.",
+   "m3": "I’m really into the French Revolution and Napoleon, so I’d love the trip to include anything that brings that era to life, but I’m not keen on general historic sites or museums. I’d also really like some time in parks and nature, especially Bois de Vincennes, plus good vegetarian-friendly restaurants and wandering around to enjoy beautiful architecture. I’m happy with a normal pace and a medium budget, and just need veggie food options planned in.",
+   "m4": "I’m really keen to focus on street markets and food shopping, especially places where locals buy bread, cheese, fruit, and little treats. I’d also love some art museums, wandering interesting neighbourhoods, and a bit of old city history and historic buildings, but I’m not bothered about viewpoints or parks. My budget is moderate, and I’m happy with a normal pace, but I can’t walk long distances so I’ll need breaks and short routes."
+  },
+  "start_date": "2026-12-04",
+  "days": 3
+ },
+ {
+  "group_id": "minority-01",
+  "kind": "minority",
+  "members": [
+   {
+    "member_id": "m1",
+    "name": "Sara",
+    "w": [
+     0.08477326888648594,
+     0.07052307203652643,
+     0.18009624055768225,
+     0.2743224708231548,
+     0.009354807587918387,
+     0.19023326483373396,
+     1.5778738734986848e-16,
+     6.338941241264818e-06,
+     7.437548691020917e-09,
+     0.19069052889570814
+    ],
+    "budget_eur": 450.0,
+    "price_sensitivity": 1.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 111426958,
+    "interest": "ancient Rome and archaeology"
+   },
+   {
+    "member_id": "m2",
+    "name": "Omar",
+    "w": [
+     0.08451901880030367,
+     0.06254280514174622,
+     0.15762320645860642,
+     0.3869759254977426,
+     0.027520252935856988,
+     0.07411526199206381,
+     0.005232139156947713,
+     0.0010315960183445074,
+     4.3448649437109066e-05,
+     0.20039634534895104
+    ],
+    "budget_eur": 1600.0,
+    "price_sensitivity": 0.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 233357469,
+    "interest": "photography and big city views"
+   },
+   {
+    "member_id": "m3",
+    "name": "Lina",
+    "w": [
+     0.12829092587282848,
+     0.03597996801534,
+     0.2174465696579843,
+     0.250896002625617,
+     0.0677449056575621,
+     0.22025293046187686,
+     1.6334091202080528e-06,
+     0.0026617834036401873,
+     2.6143786556289877e-06,
+     0.07672266651737525
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [
+     "wd:Q186115"
+    ],
+    "pace": "normal",
+    "noise_seed": 320476589,
+    "interest": "ancient Rome and archaeology"
+   },
+   {
+    "member_id": "m4",
+    "name": "Karim",
+    "w": [
+     0.04574886061558144,
+     0.0924531697022033,
+     0.04948643262848301,
+     0.021566198713257403,
+     6.495080547893368e-06,
+     0.02155839127675608,
+     0.29495836421369703,
+     0.47257411591410575,
+     0.0002695147937420223,
+     0.0013784570616261114
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [
+     "wd:Q186115"
+    ],
+    "pace": "relaxed",
+    "noise_seed": 1357086716,
+    "interest": "fashion and design"
+   }
+  ],
+  "wishes": {
+   "m1": "I’m really into ancient Rome and archaeology, so I’d love to fit in anything with Roman ruins, old artifacts, or buried layers of the city. I’m also keen on good food without blowing the budget, especially simple restaurants, markets, and wandering through neighbourhoods to see everyday local life. A few great viewpoints or panoramas would be nice too, but I’m not fussed about shopping or kid-friendly activities.",
+   "m2": "I’m really keen to focus on photography and big city views, so I’d love chances to get great skyline shots and wander around beautiful streets with interesting angles. I’m also very up for good food and nice restaurants, plus exploring neighbourhoods, markets, everyday local life, and impressive architecture. I’m not bothered about nightlife or anything aimed at kids or teens, and I’m happy with a normal pace and a comfortable budget.",
+   "m3": "I’m really into ancient Rome and archaeology, so I’d love to include anything with ruins, old artifacts, or a strong ancient-history angle. I also want good food and nice restaurants, plus time for great views, panoramas, and beautiful architecture. I’m not keen on kid-focused activities or shopping, and I’m happy with a medium budget and a normal pace. Montmartre is a must for me.",
+   "m4": "I’m mainly going for fashion and design, so I’d love time for stylish boutiques, cool interiors, and anything that shows off Parisian style. I also want some relaxed evenings with good nightlife, plus a bit of shopping and old streets or historic buildings with royal or artistic stories behind them. I definitely want to see Montmartre, but I’m not fussed about kid-friendly stuff or parks and nature, and I’d prefer to keep the pace relaxed on a medium budget."
+  },
+  "start_date": "2026-12-04",
+  "days": 3
+ },
+ {
+  "group_id": "minority-02",
+  "kind": "minority",
+  "members": [
+   {
+    "member_id": "m1",
+    "name": "Sara",
+    "w": [
+     0.051949796523870155,
+     0.023919204767524467,
+     0.07378782328719817,
+     0.06815051600583102,
+     0.0011712568361564035,
+     0.1564301805052122,
+     0.00961568463513874,
+     0.08495977094509383,
+     0.05260584387113418,
+     0.4774099226228408
+    ],
+    "budget_eur": 450.0,
+    "price_sensitivity": 1.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [
+     "wd:Q815949"
+    ],
+    "pace": "normal",
+    "noise_seed": 1993396363,
+    "interest": "modern and contemporary art"
+   },
+   {
+    "member_id": "m2",
+    "name": "Omar",
+    "w": [
+     0.023075437435462146,
+     0.10051177343073046,
+     0.23907999975817892,
+     0.011642269200065607,
+     0.02556442046617588,
+     0.20639571939699014,
+     0.019939444115028022,
+     0.10548350242105069,
+     0.07089135589602662,
+     0.19741607788029156
+    ],
+    "budget_eur": 450.0,
+    "price_sensitivity": 1.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "normal",
+    "noise_seed": 963724639,
+    "interest": "street art and bohemian neighbourhoods"
+   },
+   {
+    "member_id": "m3",
+    "name": "Lina",
+    "w": [
+     0.01863029404461848,
+     0.15490859371118273,
+     0.11018548079749002,
+     0.07921755477863916,
+     0.020868680760740128,
+     0.07847712498455447,
+     0.0029637063819468066,
+     0.10750765627367437,
+     0.03287398443053359,
+     0.3943669238366202
+    ],
+    "budget_eur": 450.0,
+    "price_sensitivity": 1.0,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "packed",
+    "noise_seed": 159104171,
+    "interest": "science and natural history"
+   },
+   {
+    "member_id": "m4",
+    "name": "Karim",
+    "w": [
+     0.001900651469841358,
+     0.011243262898354034,
+     0.019469517648200214,
+     0.37660069718948397,
+     0.1835944280198566,
+     0.033917177906937365,
+     0.06665905360677551,
+     0.08022984494922375,
+     0.19978483981242232,
+     0.026600526498904844
+    ],
+    "budget_eur": 900.0,
+    "price_sensitivity": 0.3,
+    "vegetarian": false,
+    "mobility": false,
+    "must_see": [],
+    "pace": "relaxed",
+    "noise_seed": 2145410851,
+    "interest": "the French Revolution and Napoleon"
+   }
+  ],
+  "wishes": {
+   "m1": "I’m really keen to make modern and contemporary art the main focus of the trip, and Belleville is a must for me. I’d also love time wandering local neighbourhoods, checking out markets, and seeing everyday Parisian life, plus a few good viewpoints and some nightlife. I’m not bothered about shopping or parks, and I’ll need to keep things pretty budget-friendly with a normal pace.",
+   "m2": "I’d really love this Paris trip to focus on street art and bohemian neighbourhoods, wandering around areas with murals, quirky corners, and a creative local feel. I’m also keen on beautiful architecture, nice buildings, big views, lively markets, and just seeing everyday local life in different neighbourhoods. I’m not fussed about shopping or fancy meals, and I’d rather keep things budget-friendly with a normal pace.",
+   "m3": "I’m really keen to make the trip science and natural-history focused, especially anything with fossils, animals, plants, or curious old scientific collections. I’d also love to wander real neighbourhoods, check out food markets, and see everyday Paris life, plus fit in some old historic sites and beautiful buildings along the way. I’m not fussed about art museums or shopping, and I’m on a tight budget but happy with a packed pace.",
+   "m4": "I’m mainly excited about anything tied to the French Revolution and Napoleon, so I’d love a bit of that if we can work it in without making the whole trip feel like a history tour. I’m also really up for great food and some nice restaurants, plus easygoing things that children and teenagers would enjoy, like parks or time outdoors. I’d rather skip art museums and too many old historic sites, and I’m hoping we keep the pace relaxed and the budget somewhere in the middle."
+  },
+  "start_date": "2026-12-04",
+  "days": 3
+ }
+]

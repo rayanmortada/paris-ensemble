@@ -1,0 +1,185 @@
+# Attractions the planner may use, reviewed by hand against the Wikidata popularity ranking (November 2026).
+# Only places on this list can enter a plan. It leaves out what the raw data wrongly offers: places that are closed
+# (Centre Pompidou until 2030, Tour Montparnasse deck from April 2026, Palais de la Decouverte until March 2027),
+# buildings you cannot enter (Elysee, National Assembly), duplicates of one site (Louvre Palace, Louvre Pyramid),
+# mistagged entries (Foucault pendulum, herbarium), the arrondissements, and places whose hours could not be verified
+# (Saint-Gervais). Every place here has real hours: from OSM, or from the web and written below. None are guessed.
+#
+# key       Wikidata id, or OSM id for places without one
+# name      display name
+# cat       category when the OSM tags give the wrong one
+# duration  typical visit in minutes
+# price     adult ticket in EUR. Where the 2026 rate differs, this is the higher non-EEA rate, so budgets stay safe
+# source    web: checked on the web in November 2026, not on a contract with the site, so confirm before booking
+#           free: no ticket needed
+#           estimate: our estimate, not checked
+# hours     OSM syntax, overrides the OSM tag. Used when the tag is missing or depends on sunset, checked on the web
+#           in November 2026. Where sources disagree, this is the narrower window, so a plan is not sent to a closed door
+# open_air  true: always accessible, no opening hours
+# text      description, when Wikipedia and Wikidata offer nothing useful
+# wheelchair overrides the OSM tag
+# note      shown to travelers
+
+# ---------- The major sites ----------
+Q243: {name: Eiffel Tower, duration: 120, price: 23.5, source: web, note: "Price is the lift to the 2nd floor; the summit is about 37 EUR. Book ahead."}
+Q19675: {name: Louvre Museum, duration: 180, price: 32, source: web, note: "32 EUR from outside the EEA, 22 EUR for EEA residents. Timed booking needed. Closed Tuesdays."}
+Q2981: {name: Notre-Dame Cathedral, duration: 60, price: 0, source: free, note: "Free. A free online time slot shortens the queue."}
+Q23402: {name: Musée d'Orsay, duration: 150, price: 16, source: web, note: "16 EUR online. Closed Mondays."}
+Q64436: {name: Arc de Triomphe, duration: 60, price: 22, source: web, hours: "Apr-Sep 09:30-23:00; Oct-Mar 10:00-22:30; Jan 01,May 01,May 08,Jul 14,Nov 11,Dec 25 off", note: "Price is the rooftop visit at the rate for visitors from outside the EEA."}
+Q28785: {name: Sacré-Cœur Basilica, duration: 45, price: 0, source: free, note: "Free. The dome climb costs extra."}
+Q193193: {name: Sainte-Chapelle, duration: 45, price: 22, source: web, note: "22 EUR from outside the EEA, 16 EUR for EEA residents. Book ahead."}
+Q187840: {name: Palais Garnier (Opera), duration: 75, price: 18, source: web, note: "Self-guided visit. Rehearsals can close parts of the building."}
+Q188856: {name: Panthéon, duration: 60, price: 16, source: web}
+Q138101: {name: Conciergerie, duration: 60, price: 13, source: web, note: "A combined ticket with Sainte-Chapelle exists."}
+Q28924: {name: Catacombs of Paris, duration: 60, price: 31, source: web, note: "Online booking only, with a timed slot. Long stairs, not accessible. Closed Mondays.", wheelchair: "no"}
+Q1996069: {name: Les Invalides and Army Museum, duration: 120, price: 17, source: estimate, note: "Includes Napoleon's tomb."}
+Q726781: {name: Musée de l'Orangerie, duration: 75, price: 12.5, source: web, note: "Monet's Water Lilies. Closed Tuesdays."}
+Q650519: {name: Rodin Museum, duration: 90, price: 14, source: web, note: "Closed Mondays."}
+Q743206: {name: Picasso Museum, duration: 90, price: 16, source: web, note: "Closed Mondays."}
+Q167863: {name: Musée du Quai Branly, duration: 120, price: 14, source: estimate, note: "Closed Mondays."}
+Q3075489: {name: Fondation Louis Vuitton, duration: 120, price: 18, source: web, note: "In the Bois de Boulogne. Book ahead."}
+Q691375: {name: Bourse de Commerce, duration: 75, price: 15, source: estimate, note: "Pinault Collection. Closed Tuesdays."}
+Q457318: {name: Grand Palais, duration: 90, price: 17, source: estimate, note: "Exhibitions change, so the price varies."}
+Q820892: {name: Petit Palais, duration: 75, price: 0, source: free, note: "Permanent collection is free. Closed Mondays."}
+Q1124095: {name: Musée de Cluny, duration: 75, price: 13, source: estimate, note: "Medieval art. Closed Mondays."}
+Q640447: {name: Musée Carnavalet, duration: 90, price: 0, source: free, note: "History of Paris. Permanent collection is free. Closed Mondays."}
+Q857276: {name: Museum of Modern Art of Paris, duration: 75, price: 0, source: free, note: "Permanent collection is free. Closed Mondays."}
+Q1327886: {name: Musée Marmottan Monet, duration: 90, price: 15, source: estimate, note: "Closed Mondays."}
+Q1165526: {name: Musée Jacquemart-André, duration: 90, price: 17, source: estimate, hours: "Mo-Su 10:00-18:00"}
+Q2059518: {name: Hôtel de la Marine, duration: 75, price: 17, source: estimate, hours: "Mo-Su 10:30-19:00"}
+Q860994: {name: Guimet Museum, duration: 90, price: 13, source: estimate, note: "Asian art. Closed Tuesdays."}
+Q860166: {name: Arab World Institute, duration: 75, price: 10, source: estimate, note: "The rooftop terrace with its view is free. Closed Mondays."}
+Q1538826: {name: Musée des Arts et Métiers, duration: 90, price: 10, source: estimate, note: "Closed Mondays."}
+Q2372049: {name: Grand Gallery of Evolution, duration: 120, price: 15, source: estimate, note: "Natural history museum. Closed Tuesdays."}
+Q1094338: {name: Cité des Sciences, duration: 150, price: 14, source: estimate, note: "Closed Mondays."}
+Q1265070: {name: Musée Grévin (wax museum), duration: 90, price: 26, source: web, note: "Cheaper online for a fixed date."}
+Q537515: {name: Cité de l'Architecture, duration: 90, price: 9, source: estimate, note: "Eiffel Tower view from the galleries. Closed Tuesdays."}
+Q1286709: {name: Musée de la Marine, duration: 75, price: 15, source: estimate, note: "Closed Tuesdays."}
+Q670268: {name: Musée de l'Homme, duration: 90, price: 15, source: estimate, note: "Closed Tuesdays."}
+Q1535247: {name: Palais de Tokyo, duration: 90, price: 15, source: estimate, note: "Contemporary art, open from noon. Closed Tuesdays."}
+Q1319378: {name: Musée des Arts Décoratifs, duration: 90, price: 15, source: estimate, hours: "Tu-Su 11:00-18:00", note: "Closed Mondays."}
+Q656296: {name: Jeu de Paume, duration: 75, price: 12, source: estimate, note: "Photography. Closed Mondays."}
+Q1411180: {name: Musée du Luxembourg, duration: 60, price: 15, source: estimate, note: "Temporary exhibitions only."}
+Q174274: {name: Cinémathèque Française, duration: 90, price: 12, source: estimate, hours: "We-Mo 12:00-19:00", note: "Museum of cinema. Closed Tuesdays."}
+Q977732: {name: Museum of Jewish Art and History, duration: 75, price: 12, source: estimate, note: "Closed Mondays."}
+Q479218: {name: Shoah Memorial, duration: 75, price: 0, source: free, hours: "Su-Fr 10:00-18:00; Th 10:00-22:00", note: "Free. Closed Saturdays."}
+Q85854194: {name: Museum of the Liberation of Paris, duration: 75, price: 0, source: free, text: "Museum of the 1944 Liberation of Paris, including the underground command post of the Resistance.", note: "Permanent collection is free. Closed Mondays."}
+Q1128657: {name: Museum of Hunting and Nature, duration: 60, price: 12, source: estimate, note: "Closed Mondays."}
+Q43688220: {name: Yves Saint Laurent Museum, duration: 60, price: 10, source: estimate, hours: "Tu-Su 11:00-18:00", note: "Closed Mondays."}
+Q2411384: {name: Hôtel de la Monnaie, duration: 75, price: 12, source: estimate, note: "Museum of the Paris mint."}
+Q22980309: {name: Giacometti Institute, duration: 45, price: 10, source: estimate, text: "Museum and study centre devoted to the sculptor Alberto Giacometti, with his studio reconstructed.", note: "Booking needed. Closed Mondays."}
+Q2919066: {name: Montmartre Museum, duration: 75, price: 15, source: estimate}
+Q973216: {name: Dalí Paris, duration: 60, price: 16, source: estimate}
+Q547789: {name: Balzac's House, duration: 45, price: 0, source: free, note: "Closed Mondays."}
+Q2599177: {name: Victor Hugo's House, duration: 45, price: 0, source: free, note: "On Place des Vosges. Closed Mondays."}
+Q2714932: {name: Museum of Romantic Life, duration: 45, price: 0, source: free, note: "Closed Mondays."}
+Q2715373: {name: Bourdelle Museum, duration: 60, price: 0, source: free, note: "Closed Mondays."}
+Q2613771: {name: Zadkine Museum, duration: 30, price: 0, source: free, note: "Closed Mondays."}
+Q1572452: {name: Cognacq-Jay Museum, duration: 45, price: 0, source: free, note: "Closed Mondays."}
+Q1667022: {name: Cernuschi Museum, duration: 45, price: 0, source: free, note: "Asian art. Closed Mondays."}
+Q1632912: {name: Palais Galliera, duration: 75, price: 15, source: estimate, note: "Fashion museum. Closed Mondays."}
+Q1782606: {name: Eugène Delacroix Museum, duration: 45, price: 9, source: estimate, note: "Closed Tuesdays."}
+Q2296362: {name: Gustave Moreau Museum, duration: 60, price: 9, source: estimate, hours: "Mo,We-Su 10:00-18:00; Jan 01 off; May 01 off; Dec 25 off", note: "Closed Tuesdays."}
+Q3100297: {name: European House of Photography, duration: 60, price: 12, source: estimate, note: "Closed Mondays and Tuesdays."}
+Q2654419: {name: Paris Sewer Museum, duration: 60, price: 9, source: estimate, note: "Closed Mondays."}
+Q2445818: {name: Musée de La Poste, duration: 60, price: 9, source: estimate}
+Q1094332: {name: National Museum of Immigration History, duration: 75, price: 8, source: estimate, note: "Closed Mondays."}
+Q589336: {name: Curie Museum, duration: 45, price: 0, source: free, note: "Free. Open Wednesday to Saturday afternoons."}
+Q2000339: {name: Pavillon de l'Arsenal, duration: 45, price: 0, source: free, note: "Paris architecture and planning. Free. Closed Mondays."}
+Q3329915: {name: Legion of Honour Museum, duration: 45, price: 0, source: free}
+Q1457391: {name: Gallery of Paleontology, duration: 60, price: 10, source: estimate, note: "Closed Tuesdays."}
+Q1957702: {name: Jardin des Plantes Menagerie, duration: 90, price: 15, source: estimate}
+Q2561076: {name: Wine Museum, duration: 60, price: 15, source: estimate, hours: "Tu-Sa 10:00-18:00", note: "Closed Sundays and Mondays."}
+Q2973092: {name: Aquarium de Paris, duration: 90, price: 25, source: estimate, note: "Below the Trocadéro. Good with children."}
+Q2859191: {name: Tropical Aquarium (Porte Dorée), duration: 60, price: 12, source: estimate, note: "Closed Mondays."}
+Q1969385: {name: Paris Zoo, duration: 150, price: 22, source: estimate, hours: "Mo-Su 10:00-17:00", note: "In the Bois de Vincennes. Good with children."}
+Q663673: {name: Château de Vincennes, duration: 90, price: 13, source: estimate, hours: "Mo-Su 10:00-17:00"}
+Q8405: {name: Seine cruise (Bateaux-Mouches), cat: cruise, duration: 70, price: 19, source: web, hours: "Mo-Su 11:00-19:00", note: "Hours change by season, so check departures."}
+
+# ---------- Churches and places of worship ----------
+Q330564: {name: La Madeleine, duration: 30, price: 0, source: free}
+Q295844: {name: Saint-Sulpice, duration: 30, price: 0, source: free}
+Q1338207: {name: Saint-Eustache, duration: 30, price: 0, source: free}
+Q22924488: {name: Saint-Germain-des-Prés Abbey Church, duration: 30, price: 0, source: free}
+Q1429394: {name: Saint-Germain l'Auxerrois, duration: 20, price: 0, source: free, hours: "Tu-Su 09:00-19:00"}
+Q583251: {name: Saint-Étienne-du-Mont, duration: 30, price: 0, source: free}
+Q1710376: {name: Saint-Séverin, duration: 20, price: 0, source: free}
+Q1436962: {name: Saint-Roch, duration: 20, price: 0, source: free, hours: "Mo-Su 08:30-19:00"}
+Q1243760: {name: Saint-Julien-le-Pauvre, duration: 15, price: 0, source: free}
+Q782969: {name: Notre-Dame-des-Victoires, duration: 20, price: 0, source: free, hours: "Mo-Sa 07:30-19:30; Su 08:00-19:00"}
+Q1247969: {name: Saint-Paul-Saint-Louis, duration: 20, price: 0, source: free, hours: "Mo-Su 08:00-20:00"}
+Q1493222: {name: Alexander Nevsky Cathedral, duration: 20, price: 0, source: free, hours: "Tu,Fr 15:00-17:00; Su 10:00-12:30,15:00-18:00", note: "Open to visitors only on Tuesday and Friday afternoons and on Sundays."}
+Q23305619: {name: Holy Trinity Russian Cathedral, duration: 20, price: 0, source: free}
+Q769842: {name: Chapel of the Miraculous Medal, duration: 20, price: 0, source: free, hours: "Mo,We-Su 07:45-13:00,14:30-19:00; Tu 07:45-19:00"}
+Q392564: {name: Grand Mosque of Paris, duration: 45, price: 3, source: estimate, note: "Closed Fridays. Its café and courtyard are open to all."}
+
+# ---------- Parks, gardens and cemeteries ----------
+Q309458: {name: Luxembourg Gardens, duration: 60, price: 0, source: free, hours: "Nov-Feb 08:15-16:30; Mar,Oct 07:30-18:00; Apr-Sep 07:30-20:00"}
+Q818517: {name: Tuileries Garden, duration: 45, price: 0, source: free}
+Q217925: {name: Champ de Mars, duration: 30, price: 0, source: free, open_air: true}
+Q1683459: {name: Trocadéro Gardens, duration: 30, price: 0, source: free, open_air: true, note: "The classic view of the Eiffel Tower."}
+Q730948: {name: Jardin des Plantes, duration: 60, price: 0, source: free, hours: "Mo-Su 08:00-17:30"}
+Q329948: {name: Palais-Royal Gardens, cat: park, duration: 30, price: 0, source: free, hours: "Oct-Mar 08:30-20:30; Apr-Sep 08:30-22:30"}
+Q1414059: {name: Parc Monceau, duration: 45, price: 0, source: free}
+Q532113: {name: Parc des Buttes-Chaumont, duration: 60, price: 0, source: free}
+Q246448: {name: Parc de la Villette, duration: 60, price: 0, source: free, open_air: true}
+Q1538929: {name: Parc Montsouris, duration: 45, price: 0, source: free}
+Q2060889: {name: Coulée Verte (Promenade Plantée), duration: 60, price: 0, source: free, hours: "Nov-Feb Mo-Fr 08:00-17:00; Nov-Feb Sa,Su 09:00-17:00; Mar-Oct Mo-Fr 08:00-19:00; Mar-Oct Sa,Su 09:00-19:00", note: "Closes later in summer. It may close in strong wind."}
+Q945251: {name: Parc de Bercy, duration: 45, price: 0, source: free, hours: "Mo-Su 08:00-19:00"}
+Q950446: {name: Parc de Belleville, duration: 30, price: 0, source: free, note: "A wide view over Paris."}
+Q2051953: {name: Parc André Citroën, duration: 45, price: 0, source: free}
+Q604550: {name: Serres d'Auteuil Greenhouses, duration: 45, price: 0, source: free}
+Q956826: {name: Parc de Bagatelle, duration: 60, price: 3, source: estimate, note: "In the Bois de Boulogne. Rose garden in season."}
+Q1726347: {name: Parc Floral, duration: 75, price: 0, source: free, hours: "Mo-Su 09:30-18:00", note: "In the Bois de Vincennes."}
+Q1424710: {name: Parc Georges Brassens, duration: 45, price: 0, source: free}
+Q209626: {name: Bois de Boulogne, duration: 90, price: 0, source: free, open_air: true}
+Q271639: {name: Bois de Vincennes, duration: 90, price: 0, source: free, open_air: true}
+Q3280855: {name: Square René Viviani, duration: 15, price: 0, source: free, hours: "Mo-Su 09:00-19:00", note: "A close view of Notre-Dame."}
+Q3495079: {name: Square du Vert-Galant, duration: 15, price: 0, source: free}
+Q311: {name: Père Lachaise Cemetery, duration: 90, price: 0, source: free}
+Q272208: {name: Montparnasse Cemetery, duration: 60, price: 0, source: free}
+Q746647: {name: Montmartre Cemetery, duration: 45, price: 0, source: free, hours: "Mo-Fr 08:00-17:30; Sa 08:30-17:30; Su 09:00-17:30"}
+
+# ---------- Neighbourhoods, squares, bridges, streets ----------
+Q186115: {name: Montmartre, duration: 120, price: 0, source: free, note: "Steep streets and stairs. Place du Tertre is at the top."}
+Q749573: {name: Le Marais, duration: 120, price: 0, source: free}
+Q321621: {name: Latin Quarter, duration: 90, price: 0, source: free}
+Q604717: {name: Saint-Germain-des-Prés, duration: 90, price: 0, source: free}
+Q815949: {name: Belleville, duration: 90, price: 0, source: free}
+Q1018039: {name: Butte-aux-Cailles, duration: 75, price: 0, source: free}
+Q575565: {name: Batignolles, duration: 60, price: 0, source: free}
+Q387285: {name: Les Halles, duration: 60, price: 0, source: free}
+Q550: {name: Champs-Élysées, cat: street, duration: 60, price: 0, source: free, open_air: true}
+osm:node/6239517889: {name: Rue Mouffetard, cat: street, duration: 45, price: 0, source: free, open_air: true, note: "A market street, liveliest in the morning."}
+Q860172: {name: Canal Saint-Martin, duration: 60, price: 0, source: free}
+Q810526: {name: Bassin de la Villette, duration: 45, price: 0, source: free}
+Q189503: {name: Place de la Concorde, duration: 20, price: 0, source: free}
+Q643520: {name: Place Vendôme, duration: 20, price: 0, source: free}
+Q898629: {name: Place des Vosges, duration: 30, price: 0, source: free}
+Q1810430: {name: Place Dauphine, cat: square, duration: 15, price: 0, source: free, open_air: true}
+Q269641: {name: Place de la Bastille, cat: square, duration: 15, price: 0, source: free, open_air: true}
+Q390418: {name: Pont Alexandre III, duration: 15, price: 0, source: free}
+Q335277: {name: Pont Neuf, duration: 15, price: 0, source: free}
+Q1329141: {name: Pont des Arts, duration: 15, price: 0, source: free}
+Q290355: {name: Pont de Bir-Hakeim, cat: bridge, duration: 15, price: 0, source: free, open_air: true, note: "A well-known photo spot for the Eiffel Tower."}
+Q631104: {name: Arc de Triomphe du Carrousel, cat: monument, duration: 15, price: 0, source: free, open_air: true}
+Q641548: {name: Arènes de Lutèce, cat: monument, duration: 20, price: 0, source: free, hours: "Mo-Su 08:00-19:00", note: "A Roman amphitheatre."}
+Q1431547: {name: Tour Saint-Jacques, cat: monument, duration: 15, price: 0, source: free, open_air: true, note: "Seen from the square below. Climbing it is by guided visit only."}
+Q1643144: {name: Hôtel de Sully, cat: monument, duration: 20, price: 0, source: free, hours: "Mo-Su 09:00-19:00", note: "Its courtyards lead to Place des Vosges."}
+Q1374604: {name: Hôtel de Sens, cat: monument, duration: 15, price: 0, source: free, open_air: true, note: "A medieval mansion and its garden, seen from outside."}
+
+# ---------- Shopping and markets ----------
+Q113561459: {name: Galeries Lafayette, duration: 75, price: 0, source: free, note: "Free rooftop terrace with a view."}
+Q3403689: {name: Printemps Haussmann, duration: 60, price: 0, source: free}
+Q1583780: {name: La Samaritaine, duration: 60, price: 0, source: free}
+Q1200698: {name: Le Bon Marché, duration: 60, price: 0, source: free}
+Q939893: {name: Forum des Halles, duration: 60, price: 0, source: free}
+Q2944936: {name: Beaugrenelle, duration: 60, price: 0, source: free}
+Q2940350: {name: Carrousel du Louvre, duration: 30, price: 0, source: free, hours: "Mo-Su 10:00-20:00"}
+Q1314020: {name: Galerie Vivienne, duration: 20, price: 0, source: free}
+Q3141829: {name: Passage des Panoramas, duration: 20, price: 0, source: free}
+Q3289864: {name: Marché d'Aligre, duration: 45, price: 0, source: free, note: "Morning market. Closed Mondays."}
+osm:node/1426204965: {name: Marché Monge, duration: 45, price: 0, source: free, note: "Open Wednesday, Friday and Sunday mornings."}
+osm:node/1734988002: {name: Marché Bastille, duration: 45, price: 0, source: free, note: "Open Thursday and Sunday mornings."}
+osm:node/1426261253: {name: Marché Raspail, duration: 45, price: 0, source: free, note: "Open Tuesday and Friday mornings; organic market on Sundays."}
+osm:way/279715079: {name: Marché Saint-Germain, duration: 30, price: 0, source: free, text: "Covered market hall and shopping centre in Saint-Germain-des-Prés."}

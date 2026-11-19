@@ -1,0 +1,13 @@
+.venv/
+.env
+.streamlit/secrets.toml
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+cache/llm_cache.sqlite
+data/raw/
+data_local/
+.DS_Store
+results/smoke/
+results/e2e_shots/
+streamlit_cloud_secrets.toml

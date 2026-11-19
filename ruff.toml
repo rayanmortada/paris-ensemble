@@ -1,0 +1,3 @@
+# Real bugs only, the same idea as the Legal AI CI: syntax errors, undefined names, unused imports.
+[lint]
+select = ["E9", "F"]

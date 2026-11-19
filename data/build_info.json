@@ -1,0 +1,11 @@
+{
+  "enrichment": "openai",
+  "enrich_model": "gpt-5.4-mini",
+  "embed_model": "text-embedding-3-small",
+  "built": "2026-11-03 20:20",
+  "counts": {
+    "attraction": 154,
+    "restaurant": 300,
+    "hotel": 97
+  }
+}
